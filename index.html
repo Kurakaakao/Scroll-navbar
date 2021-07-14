@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+        <nav id="nav">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <img src="img\cool.png" alt="logo" class="logo">
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- Links -->
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                          <a href="#home" class="scroll-link">Home</a>
+                        </li>
+                        <li>
+                          <a href="#info" class="scroll-link">Information</a>
+                        </li>
+                        <li>
+                          <a href="#products" class="scroll-link">Products</a>
+                        </li>
+                        <li>
+                          <a href="#contacts" class="scroll-link">Contact us</a>
+                        </li>
+                      </ul>   
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="container">
+                <h1>Scroll navigation project</h1>
+                <p>This is a JavaScript project made for testing purposes. Tutorial by freeCodeCamp.org</p>
+                <a href="#tours" class="scroll-link btn btn-white">Explore the website</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="info" class="section">
+    <div class="title">
+        <h2>Who<span> we</span> are</h2>
+    </div>
+    </section>
+
+    <section id="products" class="section">
+    <div class="title">
+        <h2><span>our</span> products</h2>
+    </div>
+    </section>
+
+    <section id="contacts" class="section">
+    <div class="title">
+        <h2>Contact<span> Us</span></h2>
+    </div>
+    </section>
+
+    <footer class="section">
+        <p>
+            Copyrights  &copy; freeCodeCamp.org & Linker (creator), <span id="date">year</span>. Dont copy pls.
+        </p>
+    </footer>
+
+    <a href="#home" class="scroll-link top-link">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- javascript -->
+    <script src="scroll.js"></script>
+  </body>
+</html>
